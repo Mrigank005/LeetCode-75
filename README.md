@@ -9,6 +9,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 | 1 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | [merge_strings_alternately.cpp](merge_strings_alternately.cpp) | Easy |
 | 2 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [gcd_of_strings.cpp](gcd_of_strings.cpp) | Easy |
 | 3 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [kids_with_candies.cpp](kids_with_candies.cpp) | Easy |
+| 4 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | [can_place_flowers.cpp](can_place_flowers.cpp) | Easy |
 
 ## 🚀 How to Run
 
@@ -28,6 +29,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ├── merge_strings_alternately.cpp    # String manipulation problem
 ├── gcd_of_strings.cpp              # String GCD using mathematical approach
 ├── kids_with_candies.cpp           # Array traversal with max finding
+├── can_place_flowers.cpp           # Greedy algorithm with boundary checks
 ├── .gitignore                      # Ignore compiled files
 └── README.md                       # This file
 ```
@@ -35,7 +37,8 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ## 🎯 Problem Categories
 
 - **String Manipulation**: Merge Strings Alternately, GCD of Strings
-- **Array Processing**: Kids With Candies
+- **Array Processing**: Kids With Candies, Can Place Flowers
+- **Greedy Algorithms**: Can Place Flowers
 
 ## 💡 Key Algorithms & Concepts
 
@@ -43,6 +46,8 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 - **GCD Algorithm**: Applied to string lengths for finding common divisors
 - **Linear Search**: Finding maximum elements in arrays
 - **Boolean Array Operations**: Efficient result storage
+- **Greedy Algorithms**: Optimal flower placement with local decisions
+- **Boundary Condition Handling**: Edge cases for array start/end positions
 
 ## 🔧 Requirements
 
@@ -51,7 +56,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 
 ## 📈 Progress
 
-**Current Progress**: 3/75 problems solved
+**Current Progress**: 4/75 problems solved
 
 ---
 
