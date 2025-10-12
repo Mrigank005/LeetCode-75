@@ -11,6 +11,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 | 3 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [kids_with_candies.cpp](kids_with_candies.cpp) | Easy |
 | 4 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | [can_place_flowers.cpp](can_place_flowers.cpp) | Easy |
 | 5 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [reverse_vowels.cpp](reverse_vowels.cpp) | Easy |
+| 6 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [reverse_words.cpp](reverse_words.cpp) | Medium |
 
 ## 🚀 How to Run
 
@@ -32,20 +33,21 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ├── kids_with_candies.cpp           # Array traversal with max finding
 ├── can_place_flowers.cpp           # Greedy algorithm with boundary checks
 ├── reverse_vowels.cpp              # Two-pointer technique for character swapping
+├── reverse_words.cpp               # Backward traversal with space handling
 ├── .gitignore                      # Ignore compiled files
 └── README.md                       # This file
 ```
 
 ## 🎯 Problem Categories
 
-- **String Manipulation**: Merge Strings Alternately, GCD of Strings, Reverse Vowels of a String
+- **String Manipulation**: Merge Strings Alternately, GCD of Strings, Reverse Vowels of a String, Reverse Words in a String
 - **Array Processing**: Kids With Candies, Can Place Flowers
 - **Greedy Algorithms**: Can Place Flowers
-- **Two Pointer Technique**: Reverse Vowels of a String
+- **Two Pointer Technique**: Reverse Vowels of a String, Reverse Words in a String
 
 ## 💡 Key Algorithms & Concepts
 
-- **Two Pointer Technique**: Used in string merging and vowel reversal
+- **Two Pointer Technique**: Used in string merging, vowel reversal, and word processing
 - **GCD Algorithm**: Applied to string lengths for finding common divisors
 - **Linear Search**: Finding maximum elements in arrays
 - **Boolean Array Operations**: Efficient result storage
@@ -53,6 +55,8 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 - **Boundary Condition Handling**: Edge cases for array start/end positions
 - **Character Classification**: Efficient vowel detection using direct comparison
 - **In-Place String Modification**: Memory-efficient string manipulation
+- **String Parsing**: Handling whitespace and word extraction
+- **Backward Traversal**: Processing strings from end to beginning
 
 ## 🔧 Requirements
 
@@ -61,7 +65,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 
 ## 📈 Progress
 
-**Current Progress**: 5/75 problems solved
+**Current Progress**: 6/75 problems solved
 
 ---
 
