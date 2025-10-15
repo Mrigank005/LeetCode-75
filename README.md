@@ -14,6 +14,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 | 6 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [reverse_words.cpp](reverse_words.cpp) | Medium |
 | 7 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [product_except_self.cpp](product_except_self.cpp) | Medium |
 | 8 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [increasing_triplet.cpp](increasing_triplet.cpp) | Medium |
+| 9 | [String Compression](https://leetcode.com/problems/string-compression/) | [string_compression.cpp](string_compression.cpp) | Medium |
 
 ## 🚀 How to Run
 
@@ -38,35 +39,39 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ├── reverse_words.cpp               # Backward traversal with space handling
 ├── product_except_self.cpp         # Prefix/suffix arrays with space optimization
 ├── increasing_triplet.cpp          # Greedy algorithm with optimal tracking
+├── string_compression.cpp          # Two-pointer in-place compression
 ├── .gitignore                      # Ignore compiled files
 └── README.md                       # This file
 ```
 
 ## 🎯 Problem Categories
 
-- **String Manipulation**: Merge Strings Alternately, GCD of Strings, Reverse Vowels of a String, Reverse Words in a String
+- **String Manipulation**: Merge Strings Alternately, GCD of Strings, Reverse Vowels of a String, Reverse Words in a String, String Compression
 - **Array Processing**: Kids With Candies, Can Place Flowers, Product of Array Except Self, Increasing Triplet Subsequence
 - **Greedy Algorithms**: Can Place Flowers, Increasing Triplet Subsequence
-- **Two Pointer Technique**: Reverse Vowels of a String, Reverse Words in a String
+- **Two Pointer Technique**: Reverse Vowels of a String, Reverse Words in a String, String Compression
 - **Prefix/Suffix Arrays**: Product of Array Except Self
 - **Subsequence Problems**: Increasing Triplet Subsequence
+- **In-Place Algorithms**: String Compression
 
 ## 💡 Key Algorithms & Concepts
 
-- **Two Pointer Technique**: Used in string merging, vowel reversal, and word processing
+- **Two Pointer Technique**: Used in string merging, vowel reversal, word processing, and in-place compression
 - **GCD Algorithm**: Applied to string lengths for finding common divisors
 - **Linear Search**: Finding maximum elements in arrays
 - **Boolean Array Operations**: Efficient result storage
 - **Greedy Algorithms**: Optimal flower placement and subsequence tracking with local decisions
 - **Boundary Condition Handling**: Edge cases for array start/end positions
 - **Character Classification**: Efficient vowel detection using direct comparison
-- **In-Place String Modification**: Memory-efficient string manipulation
+- **In-Place String Modification**: Memory-efficient string manipulation and compression
 - **String Parsing**: Handling whitespace and word extraction
 - **Backward Traversal**: Processing strings from end to beginning
 - **Prefix/Suffix Arrays**: Computing cumulative products for array transformations
 - **Space Optimization**: Reducing auxiliary space from O(n) to O(1)
 - **Subsequence Detection**: Identifying patterns in arrays with optimal state tracking
 - **Greedy State Management**: Maintaining minimal necessary information for decision making
+- **Read/Write Pointers**: Independent pointer movement for in-place array modification
+- **Multi-Digit Number Handling**: Converting integers to character arrays efficiently
 
 ## 🔧 Requirements
 
@@ -75,7 +80,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 
 ## 📈 Progress
 
-**Current Progress**: 8/75 problems solved
+**Current Progress**: 9/75 problems solved
 
 ---
 
