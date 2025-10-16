@@ -15,6 +15,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 | 7 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [product_except_self.cpp](product_except_self.cpp) | Medium |
 | 8 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [increasing_triplet.cpp](increasing_triplet.cpp) | Medium |
 | 9 | [String Compression](https://leetcode.com/problems/string-compression/) | [string_compression.cpp](string_compression.cpp) | Medium |
+| 10 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [move_zeroes.cpp](move_zeroes.cpp) | Easy |
 
 ## 🚀 How to Run
 
@@ -40,6 +41,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ├── product_except_self.cpp         # Prefix/suffix arrays with space optimization
 ├── increasing_triplet.cpp          # Greedy algorithm with optimal tracking
 ├── string_compression.cpp          # Two-pointer in-place compression
+├── move_zeroes.cpp                 # Two-pointer array partitioning
 ├── .gitignore                      # Ignore compiled files
 └── README.md                       # This file
 ```
@@ -47,16 +49,17 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ## 🎯 Problem Categories
 
 - **String Manipulation**: Merge Strings Alternately, GCD of Strings, Reverse Vowels of a String, Reverse Words in a String, String Compression
-- **Array Processing**: Kids With Candies, Can Place Flowers, Product of Array Except Self, Increasing Triplet Subsequence
+- **Array Processing**: Kids With Candies, Can Place Flowers, Product of Array Except Self, Increasing Triplet Subsequence, Move Zeroes
 - **Greedy Algorithms**: Can Place Flowers, Increasing Triplet Subsequence
-- **Two Pointer Technique**: Reverse Vowels of a String, Reverse Words in a String, String Compression
+- **Two Pointer Technique**: Reverse Vowels of a String, Reverse Words in a String, String Compression, Move Zeroes
 - **Prefix/Suffix Arrays**: Product of Array Except Self
 - **Subsequence Problems**: Increasing Triplet Subsequence
-- **In-Place Algorithms**: String Compression
+- **In-Place Algorithms**: String Compression, Move Zeroes
+- **Array Partitioning**: Move Zeroes
 
 ## 💡 Key Algorithms & Concepts
 
-- **Two Pointer Technique**: Used in string merging, vowel reversal, word processing, and in-place compression
+- **Two Pointer Technique**: Used in string merging, vowel reversal, word processing, in-place compression, and array partitioning
 - **GCD Algorithm**: Applied to string lengths for finding common divisors
 - **Linear Search**: Finding maximum elements in arrays
 - **Boolean Array Operations**: Efficient result storage
@@ -72,6 +75,8 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 - **Greedy State Management**: Maintaining minimal necessary information for decision making
 - **Read/Write Pointers**: Independent pointer movement for in-place array modification
 - **Multi-Digit Number Handling**: Converting integers to character arrays efficiently
+- **Array Partitioning**: Segregating elements while maintaining relative order
+- **Element Relocation**: Moving specific elements to designated positions efficiently
 
 ## 🔧 Requirements
 
@@ -80,7 +85,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 
 ## 📈 Progress
 
-**Current Progress**: 9/75 problems solved
+**Current Progress**: 10/75 problems solved
 
 ---
 
