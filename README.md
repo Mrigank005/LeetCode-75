@@ -16,6 +16,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 | 8 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [increasing_triplet.cpp](increasing_triplet.cpp) | Medium |
 | 9 | [String Compression](https://leetcode.com/problems/string-compression/) | [string_compression.cpp](string_compression.cpp) | Medium |
 | 10 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [move_zeroes.cpp](move_zeroes.cpp) | Easy |
+| 11 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [is_subsequence.cpp](is_subsequence.cpp) | Easy |
 
 ## 🚀 How to Run
 
@@ -42,24 +43,25 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ├── increasing_triplet.cpp          # Greedy algorithm with optimal tracking
 ├── string_compression.cpp          # Two-pointer in-place compression
 ├── move_zeroes.cpp                 # Two-pointer array partitioning
+├── is_subsequence.cpp              # Two-pointer subsequence matching
 ├── .gitignore                      # Ignore compiled files
 └── README.md                       # This file
 ```
 
 ## 🎯 Problem Categories
 
-- **String Manipulation**: Merge Strings Alternately, GCD of Strings, Reverse Vowels of a String, Reverse Words in a String, String Compression
+- **String Manipulation**: Merge Strings Alternately, GCD of Strings, Reverse Vowels of a String, Reverse Words in a String, String Compression, Is Subsequence
 - **Array Processing**: Kids With Candies, Can Place Flowers, Product of Array Except Self, Increasing Triplet Subsequence, Move Zeroes
 - **Greedy Algorithms**: Can Place Flowers, Increasing Triplet Subsequence
-- **Two Pointer Technique**: Reverse Vowels of a String, Reverse Words in a String, String Compression, Move Zeroes
+- **Two Pointer Technique**: Reverse Vowels of a String, Reverse Words in a String, String Compression, Move Zeroes, Is Subsequence
 - **Prefix/Suffix Arrays**: Product of Array Except Self
-- **Subsequence Problems**: Increasing Triplet Subsequence
+- **Subsequence Problems**: Increasing Triplet Subsequence, Is Subsequence
 - **In-Place Algorithms**: String Compression, Move Zeroes
 - **Array Partitioning**: Move Zeroes
 
 ## 💡 Key Algorithms & Concepts
 
-- **Two Pointer Technique**: Used in string merging, vowel reversal, word processing, in-place compression, and array partitioning
+- **Two Pointer Technique**: Used in string merging, vowel reversal, word processing, in-place compression, array partitioning, and subsequence matching
 - **GCD Algorithm**: Applied to string lengths for finding common divisors
 - **Linear Search**: Finding maximum elements in arrays
 - **Boolean Array Operations**: Efficient result storage
@@ -71,12 +73,13 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 - **Backward Traversal**: Processing strings from end to beginning
 - **Prefix/Suffix Arrays**: Computing cumulative products for array transformations
 - **Space Optimization**: Reducing auxiliary space from O(n) to O(1)
-- **Subsequence Detection**: Identifying patterns in arrays with optimal state tracking
+- **Subsequence Detection**: Identifying patterns in arrays and strings with optimal state tracking
 - **Greedy State Management**: Maintaining minimal necessary information for decision making
 - **Read/Write Pointers**: Independent pointer movement for in-place array modification
 - **Multi-Digit Number Handling**: Converting integers to character arrays efficiently
 - **Array Partitioning**: Segregating elements while maintaining relative order
 - **Element Relocation**: Moving specific elements to designated positions efficiently
+- **Sequential Matching**: Finding ordered patterns across strings efficiently
 
 ## 🔧 Requirements
 
@@ -85,7 +88,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 
 ## 📈 Progress
 
-**Current Progress**: 10/75 problems solved
+**Current Progress**: 11/75 problems solved
 
 ---
 
