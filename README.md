@@ -18,6 +18,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 | 10 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [move_zeroes.cpp](move_zeroes.cpp) | Easy |
 | 11 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [is_subsequence.cpp](is_subsequence.cpp) | Easy |
 | 12 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [container_with_most_water.cpp](container_with_most_water.cpp) | Medium |
+| 13 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [max_k_sum_pairs.cpp](max_k_sum_pairs.cpp) | Medium |
 
 ## 🚀 How to Run
 
@@ -46,6 +47,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ├── move_zeroes.cpp                 # Two-pointer array partitioning
 ├── is_subsequence.cpp              # Two-pointer subsequence matching
 ├── container_with_most_water.cpp   # Two-pointer area maximization
+├── max_k_sum_pairs.cpp             # Hash map frequency counting
 ├── .gitignore                      # Ignore compiled files
 └── README.md                       # This file
 ```
@@ -53,18 +55,20 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ## 🎯 Problem Categories
 
 - **String Manipulation**: Merge Strings Alternately, GCD of Strings, Reverse Vowels of a String, Reverse Words in a String, String Compression, Is Subsequence
-- **Array Processing**: Kids With Candies, Can Place Flowers, Product of Array Except Self, Increasing Triplet Subsequence, Move Zeroes, Container With Most Water
+- **Array Processing**: Kids With Candies, Can Place Flowers, Product of Array Except Self, Increasing Triplet Subsequence, Move Zeroes, Container With Most Water, Max Number of K-Sum Pairs
 - **Greedy Algorithms**: Can Place Flowers, Increasing Triplet Subsequence, Container With Most Water
-- **Two Pointer Technique**: Reverse Vowels of a String, Reverse Words in a String, String Compression, Move Zeroes, Is Subsequence, Container With Most Water
+- **Two Pointer Technique**: Reverse Vowels of a String, Reverse Words in a String, String Compression, Move Zeroes, Is Subsequence, Container With Most Water, Max Number of K-Sum Pairs
+- **Hash Map Techniques**: Max Number of K-Sum Pairs
 - **Prefix/Suffix Arrays**: Product of Array Except Self
 - **Subsequence Problems**: Increasing Triplet Subsequence, Is Subsequence
 - **In-Place Algorithms**: String Compression, Move Zeroes
 - **Array Partitioning**: Move Zeroes
-- **Optimization Problems**: Container With Most Water
+- **Optimization Problems**: Container With Most Water, Max Number of K-Sum Pairs
 
 ## 💡 Key Algorithms & Concepts
 
-- **Two Pointer Technique**: Used in string merging, vowel reversal, word processing, in-place compression, array partitioning, subsequence matching, and area maximization
+- **Two Pointer Technique**: Used in string merging, vowel reversal, word processing, in-place compression, array partitioning, subsequence matching, area maximization, and k-sum pair finding
+- **Hash Map Operations**: Frequency counting, complement search, and O(1) lookup for pair finding
 - **GCD Algorithm**: Applied to string lengths for finding common divisors
 - **Linear Search**: Finding maximum elements in arrays
 - **Boolean Array Operations**: Efficient result storage
@@ -76,6 +80,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 - **Backward Traversal**: Processing strings from end to beginning
 - **Prefix/Suffix Arrays**: Computing cumulative products for array transformations
 - **Space Optimization**: Reducing auxiliary space from O(n) to O(1)
+- **Frequency Counting**: Using hash maps to track element occurrences for efficient pair matching
 - **Subsequence Detection**: Identifying patterns in arrays and strings with optimal state tracking
 - **Greedy State Management**: Maintaining minimal necessary information for decision making
 - **Read/Write Pointers**: Independent pointer movement for in-place array modification
@@ -93,7 +98,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 
 ## 📈 Progress
 
-**Current Progress**: 12/75 problems solved
+**Current Progress**: 13/75 problems solved
 
 ---
 
