@@ -19,6 +19,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 | 11 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [is_subsequence.cpp](is_subsequence.cpp) | Easy |
 | 12 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [container_with_most_water.cpp](container_with_most_water.cpp) | Medium |
 | 13 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [max_k_sum_pairs.cpp](max_k_sum_pairs.cpp) | Medium |
+| 14 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [maximum_average_subarray.cpp](maximum_average_subarray.cpp) | Easy |
 
 ## 🚀 How to Run
 
@@ -48,6 +49,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ├── is_subsequence.cpp              # Two-pointer subsequence matching
 ├── container_with_most_water.cpp   # Two-pointer area maximization
 ├── max_k_sum_pairs.cpp             # Hash map frequency counting
+├── maximum_average_subarray.cpp    # Sliding window technique
 ├── .gitignore                      # Ignore compiled files
 └── README.md                       # This file
 ```
@@ -55,19 +57,21 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ## 🎯 Problem Categories
 
 - **String Manipulation**: Merge Strings Alternately, GCD of Strings, Reverse Vowels of a String, Reverse Words in a String, String Compression, Is Subsequence
-- **Array Processing**: Kids With Candies, Can Place Flowers, Product of Array Except Self, Increasing Triplet Subsequence, Move Zeroes, Container With Most Water, Max Number of K-Sum Pairs
+- **Array Processing**: Kids With Candies, Can Place Flowers, Product of Array Except Self, Increasing Triplet Subsequence, Move Zeroes, Container With Most Water, Max Number of K-Sum Pairs, Maximum Average Subarray I
 - **Greedy Algorithms**: Can Place Flowers, Increasing Triplet Subsequence, Container With Most Water
 - **Two Pointer Technique**: Reverse Vowels of a String, Reverse Words in a String, String Compression, Move Zeroes, Is Subsequence, Container With Most Water, Max Number of K-Sum Pairs
+- **Sliding Window**: Maximum Average Subarray I
 - **Hash Map Techniques**: Max Number of K-Sum Pairs
 - **Prefix/Suffix Arrays**: Product of Array Except Self
 - **Subsequence Problems**: Increasing Triplet Subsequence, Is Subsequence
 - **In-Place Algorithms**: String Compression, Move Zeroes
 - **Array Partitioning**: Move Zeroes
-- **Optimization Problems**: Container With Most Water, Max Number of K-Sum Pairs
+- **Optimization Problems**: Container With Most Water, Max Number of K-Sum Pairs, Maximum Average Subarray I
 
 ## 💡 Key Algorithms & Concepts
 
 - **Two Pointer Technique**: Used in string merging, vowel reversal, word processing, in-place compression, array partitioning, subsequence matching, area maximization, and k-sum pair finding
+- **Sliding Window Technique**: Fixed-size window optimization for subarray problems with efficient add/remove operations
 - **Hash Map Operations**: Frequency counting, complement search, and O(1) lookup for pair finding
 - **GCD Algorithm**: Applied to string lengths for finding common divisors
 - **Linear Search**: Finding maximum elements in arrays
@@ -81,6 +85,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 - **Prefix/Suffix Arrays**: Computing cumulative products for array transformations
 - **Space Optimization**: Reducing auxiliary space from O(n) to O(1)
 - **Frequency Counting**: Using hash maps to track element occurrences for efficient pair matching
+- **Window Sum Maintenance**: Efficiently maintaining sum of elements in a sliding window
 - **Subsequence Detection**: Identifying patterns in arrays and strings with optimal state tracking
 - **Greedy State Management**: Maintaining minimal necessary information for decision making
 - **Read/Write Pointers**: Independent pointer movement for in-place array modification
@@ -98,7 +103,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 
 ## 📈 Progress
 
-**Current Progress**: 13/75 problems solved
+**Current Progress**: 14/75 problems solved
 
 ---
 
