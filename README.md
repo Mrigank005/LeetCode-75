@@ -22,6 +22,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 | 14 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [maximum_average_subarray.cpp](maximum_average_subarray.cpp) | Easy |
 | 15 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | [max_vowels_in_substring.cpp](max_vowels_in_substring.cpp) | Medium |
 | 16 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | [max_consecutive_ones_iii.cpp](max_consecutive_ones_iii.cpp) | Medium |
+| 17 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | [longest_subarray_after_deleting_one.cpp](longest_subarray_after_deleting_one.cpp) | Medium |
 
 ## 🚀 How to Run
 
@@ -54,6 +55,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ├── maximum_average_subarray.cpp    # Sliding window technique
 ├── max_vowels_in_substring.cpp     # Sliding window with character counting
 ├── max_consecutive_ones_iii.cpp    # Variable-size sliding window
+├── longest_subarray_after_deleting_one.cpp  # Variable-size sliding window with deletion
 ├── .gitignore                      # Ignore compiled files
 └── README.md                       # This file
 ```
@@ -61,22 +63,23 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ## 🎯 Problem Categories
 
 - **String Manipulation**: Merge Strings Alternately, GCD of Strings, Reverse Vowels of a String, Reverse Words in a String, String Compression, Is Subsequence, Maximum Number of Vowels in a Substring of Given Length
-- **Array Processing**: Kids With Candies, Can Place Flowers, Product of Array Except Self, Increasing Triplet Subsequence, Move Zeroes, Container With Most Water, Max Number of K-Sum Pairs, Maximum Average Subarray I, Max Consecutive Ones III
+- **Array Processing**: Kids With Candies, Can Place Flowers, Product of Array Except Self, Increasing Triplet Subsequence, Move Zeroes, Container With Most Water, Max Number of K-Sum Pairs, Maximum Average Subarray I, Max Consecutive Ones III, Longest Subarray of 1's After Deleting One Element
 - **Greedy Algorithms**: Can Place Flowers, Increasing Triplet Subsequence, Container With Most Water
 - **Two Pointer Technique**: Reverse Vowels of a String, Reverse Words in a String, String Compression, Move Zeroes, Is Subsequence, Container With Most Water, Max Number of K-Sum Pairs
-- **Sliding Window**: Maximum Average Subarray I, Maximum Number of Vowels in a Substring of Given Length, Max Consecutive Ones III
+- **Sliding Window**: Maximum Average Subarray I, Maximum Number of Vowels in a Substring of Given Length, Max Consecutive Ones III, Longest Subarray of 1's After Deleting One Element
 - **Hash Map Techniques**: Max Number of K-Sum Pairs
 - **Prefix/Suffix Arrays**: Product of Array Except Self
 - **Subsequence Problems**: Increasing Triplet Subsequence, Is Subsequence
 - **In-Place Algorithms**: String Compression, Move Zeroes
 - **Array Partitioning**: Move Zeroes
-- **Optimization Problems**: Container With Most Water, Max Number of K-Sum Pairs, Maximum Average Subarray I, Maximum Number of Vowels in a Substring of Given Length, Max Consecutive Ones III
+- **Optimization Problems**: Container With Most Water, Max Number of K-Sum Pairs, Maximum Average Subarray I, Maximum Number of Vowels in a Substring of Given Length, Max Consecutive Ones III, Longest Subarray of 1's After Deleting One Element
 
 ## 💡 Key Algorithms & Concepts
 
 - **Two Pointer Technique**: Used in string merging, vowel reversal, word processing, in-place compression, array partitioning, subsequence matching, area maximization, and k-sum pair finding
 - **Sliding Window Technique**: Fixed-size and variable-size window optimization for subarray/substring problems with efficient add/remove operations
 - **Variable-Size Sliding Window**: Dynamic window expansion and contraction based on conditions (e.g., maintaining constraint while maximizing window size)
+- **Sliding Window with Deletion Constraint**: Special case where at most k elements can be flipped/deleted to maximize subarray length
 - **Character Counting in Windows**: Tracking specific character types (vowels) within sliding windows
 - **Hash Map Operations**: Frequency counting, complement search, and O(1) lookup for pair finding
 - **GCD Algorithm**: Applied to string lengths for finding common divisors
@@ -111,7 +114,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 
 ## 📈 Progress
 
-**Current Progress**: 16/75 problems solved
+**Current Progress**: 17/75 problems solved
 
 ---
 
