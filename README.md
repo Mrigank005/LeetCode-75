@@ -23,6 +23,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 | 15 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | [max_vowels_in_substring.cpp](max_vowels_in_substring.cpp) | Medium |
 | 16 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | [max_consecutive_ones_iii.cpp](max_consecutive_ones_iii.cpp) | Medium |
 | 17 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | [longest_subarray_after_deleting_one.cpp](longest_subarray_after_deleting_one.cpp) | Medium |
+| 18 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | [find_highest_altitude.cpp](find_highest_altitude.cpp) | Easy |
 
 ## 🚀 How to Run
 
@@ -56,6 +57,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ├── max_vowels_in_substring.cpp     # Sliding window with character counting
 ├── max_consecutive_ones_iii.cpp    # Variable-size sliding window
 ├── longest_subarray_after_deleting_one.cpp  # Variable-size sliding window with deletion
+├── find_highest_altitude.cpp       # Prefix sum with running maximum
 ├── .gitignore                      # Ignore compiled files
 └── README.md                       # This file
 ```
@@ -63,12 +65,12 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ## 🎯 Problem Categories
 
 - **String Manipulation**: Merge Strings Alternately, GCD of Strings, Reverse Vowels of a String, Reverse Words in a String, String Compression, Is Subsequence, Maximum Number of Vowels in a Substring of Given Length
-- **Array Processing**: Kids With Candies, Can Place Flowers, Product of Array Except Self, Increasing Triplet Subsequence, Move Zeroes, Container With Most Water, Max Number of K-Sum Pairs, Maximum Average Subarray I, Max Consecutive Ones III, Longest Subarray of 1's After Deleting One Element
+- **Array Processing**: Kids With Candies, Can Place Flowers, Product of Array Except Self, Increasing Triplet Subsequence, Move Zeroes, Container With Most Water, Max Number of K-Sum Pairs, Maximum Average Subarray I, Max Consecutive Ones III, Longest Subarray of 1's After Deleting One Element, Find the Highest Altitude
 - **Greedy Algorithms**: Can Place Flowers, Increasing Triplet Subsequence, Container With Most Water
 - **Two Pointer Technique**: Reverse Vowels of a String, Reverse Words in a String, String Compression, Move Zeroes, Is Subsequence, Container With Most Water, Max Number of K-Sum Pairs
 - **Sliding Window**: Maximum Average Subarray I, Maximum Number of Vowels in a Substring of Given Length, Max Consecutive Ones III, Longest Subarray of 1's After Deleting One Element
 - **Hash Map Techniques**: Max Number of K-Sum Pairs
-- **Prefix/Suffix Arrays**: Product of Array Except Self
+- **Prefix/Suffix Arrays**: Product of Array Except Self, Find the Highest Altitude
 - **Subsequence Problems**: Increasing Triplet Subsequence, Is Subsequence
 - **In-Place Algorithms**: String Compression, Move Zeroes
 - **Array Partitioning**: Move Zeroes
@@ -92,6 +94,8 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 - **String Parsing**: Handling whitespace and word extraction
 - **Backward Traversal**: Processing strings from end to beginning
 - **Prefix/Suffix Arrays**: Computing cumulative products for array transformations
+- **Prefix Sum**: Computing running cumulative sums to track state changes and find maximum values
+- **Running Maximum**: Tracking the maximum value encountered during iteration
 - **Space Optimization**: Reducing auxiliary space from O(n) to O(1)
 - **Frequency Counting**: Using hash maps to track element occurrences for efficient pair matching
 - **Window Sum Maintenance**: Efficiently maintaining sum of elements in a sliding window
@@ -114,7 +118,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 
 ## 📈 Progress
 
-**Current Progress**: 17/75 problems solved
+**Current Progress**: 18/75 problems solved
 
 ---
 
