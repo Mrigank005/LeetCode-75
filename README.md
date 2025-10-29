@@ -26,6 +26,8 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 | 18 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | [find_highest_altitude.cpp](find_highest_altitude.cpp) | Easy |
 | 19 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [find_pivot_index.cpp](find_pivot_index.cpp) | Easy |
 | 20 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | [find_difference_of_two_arrays.cpp](find_difference_of_two_arrays.cpp) | Easy |
+| 21 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | [unique_number_of_occurrences.cpp](unique_number_of_occurrences.cpp) | Easy |
+| 22 | [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | [determine_if_two_strings_are_close.cpp](determine_if_two_strings_are_close.cpp) | Medium |
 
 ## 🚀 How to Run
 
@@ -62,18 +64,20 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ├── find_highest_altitude.cpp       # Prefix sum with running maximum
 ├── find_pivot_index.cpp            # Prefix sum with balance point detection
 ├── find_difference_of_two_arrays.cpp  # Hash set for set difference operations
+├── unique_number_of_occurrences.cpp  # Hash map frequency counting with uniqueness check
+├── determine_if_two_strings_are_close.cpp  # Frequency distribution comparison
 ├── .gitignore                      # Ignore compiled files
 └── README.md                       # This file
 ```
 
 ## 🎯 Problem Categories
 
-- **String Manipulation**: Merge Strings Alternately, GCD of Strings, Reverse Vowels of a String, Reverse Words in a String, String Compression, Is Subsequence, Maximum Number of Vowels in a Substring of Given Length
-- **Array Processing**: Kids With Candies, Can Place Flowers, Product of Array Except Self, Increasing Triplet Subsequence, Move Zeroes, Container With Most Water, Max Number of K-Sum Pairs, Maximum Average Subarray I, Max Consecutive Ones III, Longest Subarray of 1's After Deleting One Element, Find the Highest Altitude, Find Pivot Index, Find the Difference of Two Arrays
+- **String Manipulation**: Merge Strings Alternately, GCD of Strings, Reverse Vowels of a String, Reverse Words in a String, String Compression, Is Subsequence, Maximum Number of Vowels in a Substring of Given Length, Determine if Two Strings Are Close
+- **Array Processing**: Kids With Candies, Can Place Flowers, Product of Array Except Self, Increasing Triplet Subsequence, Move Zeroes, Container With Most Water, Max Number of K-Sum Pairs, Maximum Average Subarray I, Max Consecutive Ones III, Longest Subarray of 1's After Deleting One Element, Find the Highest Altitude, Find Pivot Index, Find the Difference of Two Arrays, Unique Number of Occurrences
 - **Greedy Algorithms**: Can Place Flowers, Increasing Triplet Subsequence, Container With Most Water
 - **Two Pointer Technique**: Reverse Vowels of a String, Reverse Words in a String, String Compression, Move Zeroes, Is Subsequence, Container With Most Water, Max Number of K-Sum Pairs
 - **Sliding Window**: Maximum Average Subarray I, Maximum Number of Vowels in a Substring of Given Length, Max Consecutive Ones III, Longest Subarray of 1's After Deleting One Element
-- **Hash Map Techniques**: Max Number of K-Sum Pairs, Find the Difference of Two Arrays
+- **Hash Map Techniques**: Max Number of K-Sum Pairs, Find the Difference of Two Arrays, Unique Number of Occurrences, Determine if Two Strings Are Close
 - **Prefix/Suffix Arrays**: Product of Array Except Self, Find the Highest Altitude, Find Pivot Index
 - **Subsequence Problems**: Increasing Triplet Subsequence, Is Subsequence
 - **In-Place Algorithms**: String Compression, Move Zeroes
@@ -90,6 +94,9 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 - **Hash Map Operations**: Frequency counting, complement search, and O(1) lookup for pair finding
 - **Hash Set Operations**: Using unordered_set for O(1) membership testing and automatic duplicate removal
 - **Set Difference**: Finding unique elements in one collection that are not present in another
+- **Frequency Distribution Matching**: Comparing frequency patterns across collections by sorting frequency values
+- **Multi-Step Hash Operations**: Combining hash map and hash set operations for complex validations (e.g., checking uniqueness of frequencies)
+- **Character Set Validation**: Using hash sets to verify two collections contain the same unique elements
 - **GCD Algorithm**: Applied to string lengths for finding common divisors
 - **Linear Search**: Finding maximum elements in arrays
 - **Boolean Array Operations**: Efficient result storage
@@ -125,7 +132,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 
 ## 📈 Progress
 
-**Current Progress**: 20/75 problems solved
+**Current Progress**: 22/75 problems solved
 
 ---
 
