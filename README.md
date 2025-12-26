@@ -31,6 +31,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 | 23 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | [equal_row_and_column_pairs.cpp](equal_row_and_column_pairs.cpp) | Medium |
 | 24 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | [removing_stars_from_string.cpp](removing_stars_from_string.cpp) | Medium |
 | 25 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | [asteroid_collision.cpp](asteroid_collision.cpp) | Medium |
+| 26 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [rotate_image.cpp](rotate_image.cpp) / [rotate_image.py](rotate_image.py) | Medium |
 
 ## 🚀 How to Run
 
@@ -72,6 +73,8 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ├── equal_row_and_column_pairs.cpp  # Hash map for row/column matching
 ├── removing_stars_from_string.cpp  # Stack-based character removal
 ├── asteroid_collision.cpp          # Stack-based collision simulation
+├── rotate_image.cpp                # Matrix rotation using transpose + reverse
+├── rotate_image.py                 # Matrix rotation (Python implementation)
 ├── .gitignore                      # Ignore compiled files
 └── README.md                       # This file
 ```
@@ -79,7 +82,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ## 🎯 Problem Categories
 , Removing Stars From a String
 - **Array Processing**: Kids With Candies, Can Place Flowers, Product of Array Except Self, Increasing Triplet Subsequence, Move Zeroes, Container With Most Water, Max Number of K-Sum Pairs, Maximum Average Subarray I, Max Consecutive Ones III, Longest Subarray of 1's After Deleting One Element, Find the Highest Altitude, Find Pivot Index, Find the Difference of Two Arrays, Unique Number of Occurrences
-- **Matrix Problems**: Equal Row and Column Pairs
+- **Matrix Problems**: Equal Row and Column Pairs, Rotate Image
 - **Stack Problems**: Removing Stars From a String, Asteroid Collision
 - **Greedy Algorithms**: Can Place Flowers, Increasing Triplet Subsequence, Container With Most Water
 - **Two Pointer Technique**: Reverse Vowels of a String, Reverse Words in a String, String Compression, Move Zeroes, Is Subsequence, Container With Most Water, Max Number of K-Sum Pairs
@@ -144,7 +147,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 4
 ## 📈 Progress
 
-**Current Progress**: 24/75 problems solved
+**Current Progress**: 25/75 problems solved
 
 ---
 
