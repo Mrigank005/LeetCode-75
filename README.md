@@ -30,6 +30,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 | 22 | [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | [determine_if_two_strings_are_close.cpp](determine_if_two_strings_are_close.cpp) | Medium |
 | 23 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | [equal_row_and_column_pairs.cpp](equal_row_and_column_pairs.cpp) | Medium |
 | 24 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | [removing_stars_from_string.cpp](removing_stars_from_string.cpp) | Medium |
+| 25 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | [asteroid_collision.cpp](asteroid_collision.cpp) | Medium |
 
 ## 🚀 How to Run
 
@@ -70,6 +71,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 ├── determine_if_two_strings_are_close.cpp  # Frequency distribution comparison
 ├── equal_row_and_column_pairs.cpp  # Hash map for row/column matching
 ├── removing_stars_from_string.cpp  # Stack-based character removal
+├── asteroid_collision.cpp          # Stack-based collision simulation
 ├── .gitignore                      # Ignore compiled files
 └── README.md                       # This file
 ```
@@ -78,14 +80,13 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 , Removing Stars From a String
 - **Array Processing**: Kids With Candies, Can Place Flowers, Product of Array Except Self, Increasing Triplet Subsequence, Move Zeroes, Container With Most Water, Max Number of K-Sum Pairs, Maximum Average Subarray I, Max Consecutive Ones III, Longest Subarray of 1's After Deleting One Element, Find the Highest Altitude, Find Pivot Index, Find the Difference of Two Arrays, Unique Number of Occurrences
 - **Matrix Problems**: Equal Row and Column Pairs
-- **Stack Problems**: Removing Stars From a Stringace Flowers, Product of Array Except Self, Increasing Triplet Subsequence, Move Zeroes, Container With Most Water, Max Number of K-Sum Pairs, Maximum Average Subarray I, Max Consecutive Ones III, Longest Subarray of 1's After Deleting One Element, Find the Highest Altitude, Find Pivot Index, Find the Difference of Two Arrays, Unique Number of Occurrences
-- **Matrix Problems**: Equal Row and Column Pairs
+- **Stack Problems**: Removing Stars From a String, Asteroid Collision
 - **Greedy Algorithms**: Can Place Flowers, Increasing Triplet Subsequence, Container With Most Water
 - **Two Pointer Technique**: Reverse Vowels of a String, Reverse Words in a String, String Compression, Move Zeroes, Is Subsequence, Container With Most Water, Max Number of K-Sum Pairs
 - **Sliding Window**: Maximum Average Subarray I, Maximum Number of Vowels in a Substring of Given Length, Max Consecutive Ones III, Longest Subarray of 1's After Deleting One Element
 - **Hash Map Techniques**: Max Number of K-Sum Pairs, Find the Difference of Two Arrays, Unique Number of Occurrences, Determine if Two Strings Are Close, Equal Row and Column Pairs
-- **Ptack Techniques**: Removing Stars From a String
-- **Srefix/Suffix Arrays**: Product of Array Except Self, Find the Highest Altitude, Find Pivot Index
+- **Stack Techniques**: Removing Stars From a String, Asteroid Collision
+- **Prefix/Suffix Arrays**: Product of Array Except Self, Find the Highest Altitude, Find Pivot Index
 - **Subsequence Problems**: Increasing Triplet Subsequence, Is Subsequence
 - **In-Place Algorithms**: String Compression, Move Zeroes
 - **Array Partitioning**: Move Zeroes
@@ -103,8 +104,9 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 - **Set Difference**: Finding unique elements in one collection that are not present in another
 - **Frequency Distribution Matching**: Comparing frequency patterns across collections by sorting frequency values
 - **Multi-Step Hash Operations**: Combining hash map and hash set operations for complex validations (e.g., checking uniqueness of frequencies)
-- **Stack Operations**: LIFO (Last In First Out) data structure for character removal and string building
+- **Stack Operations**: LIFO (Last In First Out) data structure for character removal and collision simulation
 - **Stack-Based String Processing**: Using stack for efficient character removal based on markers (stars)
+- **Collision Simulation**: Simulating directional collisions using stack to track survivors
 - **Character Set Validation**: Using hash sets to verify two collections contain the same unique elements
 - **Row-Column Comparison**: Using hash maps to store row patterns and match against column patterns with frequency counting
 - **GCD Algorithm**: Applied to string lengths for finding common divisors
@@ -142,7 +144,7 @@ A collection of solutions to the LeetCode 75 problems implemented in C++.
 4
 ## 📈 Progress
 
-**Current Progress**: 23/75 problems solved
+**Current Progress**: 24/75 problems solved
 
 ---
 

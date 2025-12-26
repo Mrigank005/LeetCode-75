@@ -6,26 +6,19 @@ using namespace std;
 class Solution {
 public:
     string removeStars(string s) {
-        stack<char> st;
+        string result;  // Use string as a stack
         
         // Iterate through each character in the string
         for (char c : s) {
             if (c == '*') {
                 // Remove the closest non-star character (pop from stack)
-                if (!st.empty()) {
-                    st.pop();
+                if (!result.empty()) {
+                    result.pop_back();
                 }
             } else {
                 // Add non-star character to stack
-                st.push(c);
+                result.push_back(c);
             }
-        }
-        
-        // Build result string from stack
-        string result = "";
-        while (!st.empty()) {
-            result = st.top() + result;  // Add to front since stack is LIFO
-            st.pop();
         }
         
         return result;
